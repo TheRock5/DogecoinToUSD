@@ -44,7 +44,7 @@ MainWindow::MainWindow(QWidget *parent) :
            qDebug() << reply->errorString();
        }
        else {
-
+           
            QPair<double, double> currencyPair;
            const QString data = reply->readAll();
            const QJsonDocument document = QJsonDocument::fromJson(data.toUtf8());
