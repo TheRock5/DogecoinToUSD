@@ -43,7 +43,6 @@ MainWindow::MainWindow(QWidget *parent) :
            else
                qDebug() << "Failed to convert DOGE to USD.";
        }
-
     });
 }
 
